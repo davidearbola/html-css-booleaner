@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
+/* regole header */
+
 .sfondo-colorato {
     background-color: #29aaf4;
 }
@@ -19,9 +21,13 @@
     width: 25%;
 }
 
+/* fine regole header */
+
 main {
     padding: 20px;
 }
+
+/* regole intestazione */
 
 .titolo {
     font-size: 3em;
@@ -47,6 +53,10 @@ main {
     font-size: 0.7em;
 }
 
+/* fine regole intestazione */
+
+/* regole contenuto testo e tabella */
+
 .lista {
     padding-left: 20px;
 }
@@ -68,5 +78,38 @@ main {
 
 .riga-1, .riga-3 {
     background-color: aqua;
+}
+
+/* fine regole contenuto testo e tabella */
+
+/* regole footer */
+
+footer {
+    padding-left: 20px;
+}
+
+.info {
+    color: #8c8c8c;
+    margin-bottom: 20px;
+}
+
+.immagine-1, .immagine-2 {
+    color: white;
+    font-size: 1.4em;
+    height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.immagine-1 {
+    background-image: url("../img/monitor.jpg");
+}
+
+.immagine-2 {
+    background-image: url("../img/graph.jpg");
 }
 
