@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* regole header */
+
+header {
+    margin-bottom: 20px;
+}
+
+.sfondo-colorato {
+    background-color: #29aaf4;
+    background-image: url("../img/pattern.png");
+}
+
+.sfondo-immagine {
+    padding-top: 80px;
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 30%;
+}
+
+/* fine regole header */
+
+main, footer {
+    width: 80%;
+    margin: auto;
+}
+
+/* regole intestazione */
+
+.titolo {
+    font-size: 3em;
+}
+
+.testo-grigio {
+    color: #8c8c8c;
+}
+
+.autore {
+    color: #29aaf4;
+}
+
+.sezione {
+    margin-bottom: 20px;
+}
+
+.immagini {
+    width: 100%;
+}
+
+.didascalia {
+    font-size: 0.7em;
+}
+
+/* fine regole intestazione */
+
+/* regole contenuto testo e tabella */
+
+.lista {
+    padding-left: 20px;
+}
+
+.tabella{
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+.cella-1, .cella-2 {
+    width: 20%;
+}
+
+.riga-head {
+    color: white;
+    background-color: blue;
+}
+
+.riga-1, .riga-3 {
+    background-color: aqua;
+}
+
+/* fine regole contenuto testo e tabella */
+
+/* regole footer */
+
+.info {
+    color: #8c8c8c;
+    margin-bottom: 20px;
+}
+
+.immagine-1, .immagine-2 {
+    color: white;
+    font-size: 1.4em;
+    height: 250px;
+    width: 30%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.immagine-1 {
+    background-image: url("../img/monitor.jpg");
+}
+
+.immagine-2 {
+    background-image: url("../img/graph.jpg");
+}
