@@ -21,7 +21,6 @@
 
 main {
     padding: 20px;
-    
 }
 
 .titolo {
@@ -35,3 +34,39 @@ main {
 .autore {
     color: #29aaf4;
 }
+
+.sezione {
+    margin-bottom: 20px;
+}
+
+.immagini {
+    width: 100%;
+}
+
+.didascalia {
+    font-size: 0.7em;
+}
+
+.lista {
+    padding-left: 20px;
+}
+
+.tabella{
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+.cella-1, .cella-2 {
+    width: 20%;
+}
+
+.riga-head {
+    color: white;
+    background-color: blue;
+}
+
+.riga-1, .riga-3 {
+    background-color: aqua;
+}
+
